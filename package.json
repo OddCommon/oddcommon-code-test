@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "@oddcommon/utils": "^1.2.5",
+    "gsap": "^3.10.4",
     "modern-normalize": "^1.1.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",

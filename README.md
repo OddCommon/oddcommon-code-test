@@ -1,5 +1,7 @@
 # OddCommon Code Test
 
+This repo is setup as a quick start, if you have a go to starter that you're more comfortable with feel free to use, but please include instructions for building.
+
 🤘
 
 ## Instructions
@@ -88,6 +90,9 @@ There are a base set of aliases you can use, you can add or modify in `vite.conf
     - You can find the store in `src/scripts/store`
 
 - [Normalize](modern-normalize)
+
+- Animations
+  - [GSAP](https://greensock.com/gsap/)
 
 ## 📐 Structure
 
