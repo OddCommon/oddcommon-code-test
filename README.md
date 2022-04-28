@@ -2,6 +2,14 @@
 
 🤘
 
+## Instructions
+
+1. Download this repo
+2. Check out the figma
+3. Read the readme
+4. Make magic happen
+5. Create a new repo and push
+
 ## The task:
 
 Build a single page application that shows a list of curated videos from Vimeo. The page should populate with the static thumbnail provided by Vimeo, its title and a set of like and dislike buttons. These buttons should persist their like or disliked status between page refreshes.
