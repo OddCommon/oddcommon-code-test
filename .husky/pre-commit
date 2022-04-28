@@ -1,0 +1,5 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# npx prettier --write **/*.{js,jsx,json,md} && 
+npx pretty-quick --staged

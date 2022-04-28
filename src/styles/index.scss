@@ -1,0 +1,18 @@
+@import '../../node_modules/modern-normalize/modern-normalize.css';
+@import 'utils';
+@import 'fonts';
+@import 'typography';
+
+html,
+body {
+  background: black;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  font-family: 'Roobert', $sans-stack;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
