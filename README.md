@@ -1,6 +1,8 @@
 # OddCommon Code Test
 
-This repo is setup as a quick start, if you have a go to starter that you're more comfortable with feel free to use, but please include instructions for building.
+This repo is setup as a quick start that we use at OddCommon, if you have a go to starter that you're more comfortable with feel free to use, but please include instructions for building.
+
+Note that fonts are included in this repo so feel free to grab them to use within your app.
 
 🤘
 
