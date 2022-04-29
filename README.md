@@ -24,6 +24,8 @@ When a user taps on a cell it should seamlessly transition to a detail view and 
 
 When a user taps the next and previous buttons it should transition to the next or previous video in the config file. No need for infinite looping, it is okay to disable the previous and next buttons when you’ve hit the min and max of the list.
 
+Your target should be mobile browsers.
+
 Good luck!
 
 ### Helpers and things you will need
@@ -31,9 +33,7 @@ Good luck!
 - In `src/scripts/data` you will find a config file from the vimeo API that contains a set of 25 featured videos. Use this as your data.
 - In order to get the raw video clip you will need to make a `POST` request to: `https://proxy.oddcommon.dev/vimeo/${video_id}`
   - This request will return a config file for the requested video. In order to get the actual video file, you will need to look at `request.files.progressive` in the payload. You will need to sort and use the widest video in the set. This will be an mp4 that you can use in your app.
-  ```js
-  config.request.files.progressive.sort((a, b) => b.width - a.width)[0];
-  ```
+- While these videos come from Vimeo we are not using the Vimeo sdk or player.
 
 # react-boilerplate
 
