@@ -52,39 +52,7 @@ A minimal boilerplate for Vite + React.
 
 You can find the `vite.config.js` in the root of the project, there you can modify the Vite setup and configuration.
 
-### 🥸 Aliases
-
-There are a base set of aliases you can use, you can add or modify in `vite.config.js`
-
-```js
-  '@assets': `${path.resolve(__dirname, './src/public')}`,
-  '@store': `${path.resolve(__dirname, './src/scripts/store')}`,
-  '@data': `${path.resolve(__dirname, './src/scripts/data')}`,
-  '@libs': `${path.resolve(__dirname, './src/scripts/libs')}`,
-  '@hooks': `${path.resolve(__dirname, './src/scripts/hooks')}`,
-  '@views': `${path.resolve(__dirname, './src/scripts/views')}`,
-  '@components': `${path.resolve(__dirname, './src/scripts/components')}`,
-  '@styles': `${path.resolve(__dirname, './src/styles')}`,
-  '@cssUtils': `${path.resolve(__dirname, './src/styles/utils')}`,
-```
-
 ## 📦 What's inside
-
-- Utils
-
-  - [@oddcommon/utils](https://github.com/oddcommon/utils) - A set of handy tools that we use often at oddcommon
-    - A commonly used util is `css` this allows for stateful class names in an esily composable manner.
-    - example:
-    ```js
-        ...
-        <MyComponent
-            className={css(
-                someStateOrLogic && Styles.active,
-                someOtherLogic && Styles.exampleClass
-            )}
-        />
-        ....
-    ```
 
 - State
 

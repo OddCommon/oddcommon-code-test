@@ -15,16 +15,6 @@ export default defineConfig({
     host: true,
   },
   resolve: {
-    alias: {
-      '@assets': `${path.resolve(__dirname, './src/public')}`,
-      '@store': `${path.resolve(__dirname, './src/scripts/store')}`,
-      '@data': `${path.resolve(__dirname, './src/scripts/data')}`,
-      '@libs': `${path.resolve(__dirname, './src/scripts/libs')}`,
-      '@hooks': `${path.resolve(__dirname, './src/scripts/hooks')}`,
-      '@views': `${path.resolve(__dirname, './src/scripts/views')}`,
-      '@components': `${path.resolve(__dirname, './src/scripts/components')}`,
-      '@styles': `${path.resolve(__dirname, './src/styles')}`,
-      '@cssUtils': `${path.resolve(__dirname, './src/styles/utils')}`,
-    },
+    alias: {},
   },
 });
