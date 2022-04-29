@@ -54,15 +54,13 @@ You can find the `vite.config.js` in the root of the project, there you can modi
 
 ## 📦 What's inside
 
-- State
+- [zustand](https://github.com/pmndrs/zustand) - A small, fast and scalable bearbones state-management solution using simplified flux principles. Has a comfy api based on hooks, isn't boilerplatey or opinionated.
 
-  - [zustand](https://github.com/pmndrs/zustand) - A small, fast and scalable bearbones state-management solution using simplified flux principles. Has a comfy api based on hooks, isn't boilerplatey or opinionated.
-    - You can find the store in `src/scripts/store`
+  - You can find the store in `src/scripts/store`
 
 - [Normalize](modern-normalize)
 
-- Animations
-  - [GSAP](https://greensock.com/gsap/)
+- [GSAP](https://greensock.com/gsap/)
 
 ## 📐 Structure
 
