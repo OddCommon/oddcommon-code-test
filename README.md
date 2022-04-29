@@ -1,6 +1,6 @@
 # OddCommon Code Test
 
-This repo is setup as a quick start that we use at OddCommon, if you have a go to starter that you're more comfortable with feel free to use, but please include instructions for building.
+This repo is setup as a quick start that we use at OddCommon, if you have a go to starter that you're more comfortable with feel free to use, just include instructions for building.
 
 Note that fonts are included in this repo so feel free to grab them to use within your app.
 
@@ -29,7 +29,7 @@ Good luck!
 ### Helpers and things you will need
 
 - In `src/scripts/data` you will find a config file from the vimeo API that contains a set of 25 featured videos. Use this as your data.
-- In order to get the raw video clip you will need to make a `POST` request to: `https://proxy.oddcommon.dev/proxy?url=https://player.vimeo.com/video/${video_id}/config`
+- In order to get the raw video clip you will need to make a `POST` request to: `https://proxy.oddcommon.dev/vimeo/${video_id}`
   - This request will return a config file for the requested video. In order to get the actual video file, you will need to look at `request.files.progressive` in the payload. You will need to sort and use the widest video in the set. This will be an mp4 that you can use in your app.
   ```js
   config.request.files.progressive.sort((a, b) => b.width - a.width)[0];
