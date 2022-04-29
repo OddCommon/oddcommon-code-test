@@ -30,7 +30,11 @@ Good luck!
 
 ### Helpers and things you will need
 
-- The Vimeo API is rate limited so for the sake of caching in `src/scripts/data` you will find a config file from the vimeo API that contains a set of 25 featured videos. Use this as your data.
+- The Vimeo API is rate limited so for the sake of caching in `src/scripts/data` you will find a config file from the vimeo API that contains a set of 16 featured videos. Use this as your data.
+
+- In order to achieve the layout and design you will need to access the raw MP4 from Vimeo. To help you we've created a little proxy you can use to query for the config. `https://proxy.oddcommon.dev/vimeo/${video_id}`
+  - That endpoint will return the config metadata for the Vimeo video. You will need to parse this data and merge it with your other data.
+  - To get the actual MP4 you will need to look at `request.files.progressive` which will be a set of videos. Would suggest sorting and filtering the largest video.
 
 # react-boilerplate
 
