@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/OddCommon/oc-code-test.git"
   },
-  "author": "Drew Dahlman <drew@oddcommon.com>",
+  "author": "OddCommon Devs<oc.dev.tools@oddcommon.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/OddCommon/oc-code-test/issues"

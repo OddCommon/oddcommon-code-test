@@ -56,8 +56,6 @@ You can find the `vite.config.js` in the root of the project, there you can modi
 
 - [zustand](https://github.com/pmndrs/zustand) - A small, fast and scalable bearbones state-management solution using simplified flux principles. Has a comfy api based on hooks, isn't boilerplatey or opinionated.
 
-  - You can find the store in `src/scripts/store`
-
 - [Normalize](modern-normalize)
 
 - [GSAP](https://greensock.com/gsap/)
@@ -70,34 +68,11 @@ The setup here is very basic so modify as you see fit.
   - Any assets that should be considered static and don't need to be hashed at compile time.
 - scripts
   - `components`
-    - Repeated and shared components from the app.
-  - `store`
-    - Global State. You can access via `import useStore from "@store"`
-  - `views`
-    - A view is a collection of components and will typically be a wrapper for a page or a larger component on a page.
+    - Repeated and shared components from the app
+  - `data`
+    - Where data lives
   - `index.jsx`
-    - Where things get started.
+    - Where things get started
   - `styles`
-    - `_fonts.scss` - Font imports & base styles.
-    - `_mixins.scss` - Useful mixins, expand this if needed.
-    - `_typography.scss` - Global type styles
-    - `_utils.scss` - Should not generate styles but act as a proxy for vars & mixins.
-      - Import into your components using `@import '@cssUtils'`
-    - `_vars.scss` - Variables
+    - `_fonts.scss` - Font imports & base styles
     - `index.scss` - Global Styles
-
-## 👮‍♀️ Rules
-
-We try not to be too heavy handed with opinions but there are some basic rules to follow:
-
-- Anything that is repeated more than once should be turned into a component.
-- Use SCSS modules for styles
-
-  - The only global styles you should be using are type styles for tags and basic elements.
-  - When importing use `import Styles from './index.module.scss`
-
-- Keep ALL requests ( axios / fetch ) in the store, a component and view should be responsible for presentation layer only.
-
-- Documentation and comments are highly encouraged.
-
-- Don't be clever. As fun as a cool one liner is, your code should be made for other humans.

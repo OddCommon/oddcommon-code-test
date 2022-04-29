@@ -4,7 +4,7 @@ import { createRoot } from 'react-dom/client';
 import Styles from './index.module.scss';
 
 // Import Components
-import { Logo } from '@components/Logo';
+import { Logo } from './components/Logo';
 
 // App
 const App = () => {
