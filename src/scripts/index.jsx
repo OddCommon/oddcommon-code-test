@@ -1,6 +1,5 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import { css } from '@oddcommon/utils';
 
 import Styles from './index.module.scss';
 
@@ -11,7 +10,7 @@ import { Logo } from '@components/Logo';
 const App = () => {
   return (
     <>
-      <Logo className={css(Styles.logo)} />
+      <Logo className={Styles.logo} />
     </>
   );
 };
