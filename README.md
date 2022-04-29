@@ -1,6 +1,6 @@
 # OddCommon Code Test
 
-This repo is setup as a quick start that we use at OddCommon, if you have a go to starter that you're more comfortable with feel free to use, just include instructions for building.
+This repo is a bare bones vite + react boilerplate. If you have a go to starter that you're more comfortable with feel free to use just include instructions for building.
 
 Note that fonts are included in this repo so feel free to grab them to use within your app.
 
