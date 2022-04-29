@@ -30,7 +30,7 @@ Good luck!
 
 ### Helpers and things you will need
 
-- In `src/scripts/data` you will find a config file from the vimeo API that contains a set of 25 featured videos. Use this as your data.
+- The Vimeo API is rate limited so for the sake of caching in `src/scripts/data` you will find a config file from the vimeo API that contains a set of 25 featured videos. Use this as your data.
 
 # react-boilerplate
 
