@@ -61,8 +61,6 @@ You can find the `vite.config.js` in the root of the project, there you can modi
 
 - [GSAP](https://greensock.com/gsap/)
 
-- [Vimeo Player](https://www.npmjs.com/package/@vimeo/player)
-
 ## 📐 Structure
 
 The setup here is very basic so modify as you see fit.
